@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>
+        <%= title%>
+    </title>
+    <%- include('partials/head')%>
+</head>
+
+<body>
+
+    <%- include('partials/navigation')%>
+        <br>
+        <h1 class=" text-uppercase fw-bold" style="font-size: 230px;">Bemuscle</h1>
+        <!--main content-->
+        <br>
+        <img src="img/bemuscle.png"
+                    alt="" width="800px" height="300px" style="position: relative;top: 40px; left: 350px;">
+        <main class="vh-100 container pt-2 text-center d-flex justify-content-center align-items-center">
+            <section style="position: relative;top: -190px; left: 25px;">
+                <h1 class="display-1 "  style="position: relative;top: 250px;">Misión</h1>
+                <p style="width: 730px; height: 455px; color: rgb(62, 0, 87); background-color: rgb(251, 247, 253); font-size: 30px;padding: 30px;position: relative;top: 310px;">
+                    Facilitarles a los ecuatorianos físicos culturistas de un sitio web en el cuál se podrá mostrar 
+                    las mejores rutinas de ejercicios, para el aumento de la masa muscular y 
+                    lo podrán practicar sin tener que lesionarse y una tienda de productos nutricionales 
+                    que el deportista podría consumir para fortalecer su musculatura, ya que hacen esfuerzos físicos.
+                </p>
+            </section>
+        </main> <main class="vh-100 container pt-2 text-center d-flex justify-content-center align-items-center">
+            <section>
+                <h1 class="display-1 ">Visión</h1>
+                <p style="width: 730px; height: 455px; color: rgb(1, 86, 143); background-color: aliceblue; font-size: 30px;padding: 30px;position: relative;top: 30px;">
+                    Brindar bienestar a nuestros miembros y en general, que nuestro sitio web nos genere valor, 
+                    ayudar a las personas a mejorar su salud, calidad de vida a través de rutinas de entrenamiento, 
+                    para ayudarles a alcanzar sus objetivos como deportistas; con nuestro proyecto les proveemos 
+                    bienestar con base en una esmerada atención, en un ambiente agradable.
+                </p>
+            </section>
+        </main>
+        <br>
+        <br>
+        <a class="nav-link" href="http://localhost:5000" style="background-color: black; color:azure; width: 100px; height:30px;text-align: center;">Ejercicios</a>
+        <%- include('partials/footer')%>
+</body>
+
+</html>
